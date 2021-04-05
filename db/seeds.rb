@@ -30,7 +30,7 @@ puts "5 skills created"
             esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
             in culpa qui officia deserunt mollit anim id est laborum.",
         main_image:"https://place-hold.it/600x4000",    
-        thumb_image:"https://place-hold.it/300x250" 
+        thumb_image:"https://place-hold.it/350x200" 
     )
 end
 puts "9 portfolio items created"
