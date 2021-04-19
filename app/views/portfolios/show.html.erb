@@ -2,5 +2,14 @@
 <p><%= @portfolio_item.title%></p>
 <p><%= @portfolio_item.subtitle%></p>
 <p><%= @portfolio_item.body%></p>
+
+<p>Technologies: </p>
+<ul>
+    <% @portfolio_item.technologies.each  do |technology| %>
+        <li>
+            <%= technology.name %>
+        </li>
+    <%end%>
+</ul>
 <%= link_to "Back", portfolios_path%>
 <%= link_to "Edit", edit_portfolio_path(@portfolio_item.id)%>
