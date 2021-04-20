@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-    include DeviseWhitelist
+include DeviseWhitelist
     # protect_from_forgery with: :exception
 
 end
