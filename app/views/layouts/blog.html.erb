@@ -20,8 +20,6 @@
     
      <%= render "shared/nav", location: "bottom"%>
 
-    <% if session[:source]%>
-      <footer>Thanks for visiting me <%= session[:source] %></footer>
-    <%end%>
+    <%= source_helper "blog"%>
   </body>
 </html>
