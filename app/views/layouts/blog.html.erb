@@ -24,15 +24,9 @@
         <%= link_to 'Login', new_user_session_path%>
      <%end%>
     <%= yield %>
-
-     <nav>
-        <%= link_to "Home", root_path%>
-        <%= link_to "About Me", about_me_path%>
-        <%= link_to "Contact", contact_path%>
-        <%= link_to "Blog", blogs_path%>
-        <%= link_to "Portfolio", portfolios_path%>
-      </nav>
-
+    
+    <%= render "shared/nav"%>
+    
     <% if session[:source]%>
       <footer>Thanks for visiting me <%= session[:source] %></footer>
     <%end%>
