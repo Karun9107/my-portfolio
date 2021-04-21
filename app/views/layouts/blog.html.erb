@@ -25,8 +25,8 @@
      <%end%>
     <%= yield %>
     
-    <%= render "shared/nav"%>
-    
+     <%= render "shared/nav", location: "bottom"%>
+
     <% if session[:source]%>
       <footer>Thanks for visiting me <%= session[:source] %></footer>
     <%end%>
