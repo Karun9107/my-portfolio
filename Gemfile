@@ -57,3 +57,8 @@ gem 'devise', '~> 4.7', '>= 4.7.3'
 gem 'pry', '~> 0.13.0'
 
 gem 'ostruct', '~> 0.3.3'
+
+gem 'bootstrap', '~> 4.0.0'
+
+gem 'jquery-rails'
+
