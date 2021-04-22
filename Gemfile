@@ -62,3 +62,5 @@ gem 'bootstrap', '~> 4.0.0'
 
 gem 'jquery-rails'
 
+gem 'karuns_view_tool', git: 'https://github.com/Karun9107/karuns_view_tool'
+

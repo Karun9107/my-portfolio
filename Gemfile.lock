@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/Karun9107/karuns_view_tool
+  revision: 36b8981bfd5a88242738b397deaea15b54c6507e
+  specs:
+    karuns_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -224,6 +230,7 @@ DEPENDENCIES
   friendly_id (~> 5.4.0)
   jbuilder (~> 2.7)
   jquery-rails
+  karuns_view_tool!
   listen (~> 3.3)
   ostruct (~> 0.3.3)
   pg (~> 1.1)

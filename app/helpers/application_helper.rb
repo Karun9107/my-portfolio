@@ -17,5 +17,8 @@ module ApplicationHelper
         end
     end
 
+    def copyright_generator
+        KarunsViewTool::Renderer.copyright "Karun Rajagopal", "All rights reserved"
+    end
   
 end
