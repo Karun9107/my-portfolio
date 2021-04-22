@@ -6,7 +6,9 @@ class BlogsController < ApplicationController
 
   # GET /blogs or /blogs.json
   def index
-    @blogs = Blog.all
+
+    # special_blogs is a class level method in Blog
+    blogs = Blog.special_blogs  
     @page_title = "Karun's Portfolio Blog"
   end
 
@@ -81,4 +83,5 @@ class BlogsController < ApplicationController
     def blog_params
       params.require(:blog).permit(:title, :body)
     end
+
 end
