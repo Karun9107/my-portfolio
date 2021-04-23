@@ -12,6 +12,6 @@
     <%end%>
 </ul>
 <%= link_to "Back", portfolios_path%>
-<%= link_to "Edit", edit_portfolio_path(@portfolio_item.id)%>
+<%= link_to "Edit", edit_portfolio_path(@portfolio_item.id) if logged_in?(:site_admin)%>
 
 <%= params.inspect%>
